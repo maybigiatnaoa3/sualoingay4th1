@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation file</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="AllGui">
+        <div class="LeftBlock">
+            <div class="Logo">
+                <img src="image/Logo_Home.png" alt="" >
+                
+            </div>
+            <div class="TollsPart">
+                <div class="Search">
+                    <input type="text" placeholder="Enter screencode" >
+                        <div class="icon"><img src="image/surface1.png" alt=""></div>
+                        <!-- <div class="icon"><i class="fas fa-search"></i></div> -->
+                </div>
+                <nav class="Sidebar">
+                    <ul>
+                        
+                        <li>
+                            <a href="#" class="cardmanamegent-btn"><span  class="icon2"><img src="image/ic_library_books_24px.png" alt=""></span><span>Reconciliation</span> <span class="ChevronDown"><img src="image/icons8_angle_down_64px.png" alt=""></span></a>
+                            <ul class="cardmanamegent-show">
+                                <li><a href=""><span>Reconciliation File Status</span></a></li>
+                                <li><a href=""><Span>Transaction Inquiry</Span></a></li>
+                                <li><a href=""><span>Adjustment</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="RightBlock">
+            <div class="UpperPart">
+                <h3 class="Text1">Welcome, Vũ Thị Hà Phương</h3>
+                <h4 class="Text2">To day is Friday, November 13th 2020. Hopyouhave a nice day !</h4>
+                <button class="BtnOut">Log out</button>
+            </div>
+            <div class="Bottom">
+                <h3 class="TextBottom">Reconciliation File Inquiry</h3>
+                        <div class="BreadcrumbContainer">
+                            <ol class="Breadcrumb">
+                                <div class="BImage"><img src="image/Home.png" alt=""></div>
+                                <li class="BreadcrumbItem">
+                                    <span class="Before">/</span>
+                                    <span class="TextBreadcrumb">Reconciliation File Inquiry</span>
+                                </li>
+                                <li class="BreadcrumbItem">
+                                    <span class="Before">/</span>
+                                    <span class="TextBreadcrumb2">You are here</span>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="Bottom1">
+                            <div class="FunctionPart">
+                                <form action="SearchCard">
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">* Data Collection</label><span class="Notify">Field length incorrect!</span></div>
+                                            <select class="select" name="Datacollection" id="Datacollection">
+                                                
+                                                <option value="1">Napas</option>
+                                                <option value="2">1</option>
+                                                <option value="3">2</option>
+                                                <option value="4">3</option>
+                                                <option value="5">4</option>
+                                            </select>
+                                            <span class="Danger"><img src="image/dangerr.png" alt=""></span>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">File Name</label></div>
+                                            <select class="select" name="FileName" id="FileName">
+                                                
+                                                <option value="1">MMDDYY_ISS_BBB_999999_X_TC_SWC</option>
+                                                <option value="2">MMDDYY_ISS_BBB_999999_X_TC_SWC</option>
+                                                <option value="3">MMDDYY_ISS_BBB_999999_X_TC_SWC</option>
+                                                <option value="4">MMDDYY_ISS_BBB_999999_X_TC_SWC</option>
+                                                <option value="5">MMDDYY_ISS_BBB_999999_X_TC_SWC</option>
+                                            </select>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">From Date</label></div>
+                                            <input class="input" type="date" >
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                
+                                                <div><label for="format">To Date</label></div>
+                                            <input class="input" type="date">
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">File Status</label></div>
+                                            <select class="select" name="FileStatus" id="FileStatus">
+                                                
+                                                <option value="1">Reconciliation file received from NAPAS</option>
+                                                <option value="2">Reconciliation file received from NAPAS</option>
+                                                <option value="3">Reconciliation file received from NAPAS</option>
+                                                <option value="4">Reconciliation file received from NAPAS</option>
+                                                <option value="5">Reconciliation file received from NAPAS</option>
+                                            </select>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            
+                                    </div>
+                                    
+                                    
+                                    
+                                    <input onclick="search()" class="BtnSearch" type="button" value="Search">
+                                    <button class="BtnClear"><a href="">Clear</a></button>
+                                </form>
+                            </div>
+                            <hr class="LineOne">
+                            
+                            <p class="Textt">Total Results 0 (Record)</p>
+                            
+                            <table class="TableScroll Col">
+                                <thead>
+                                <tr> 
+                                    <th style="width: 35px; height: 30px;">No</th>
+                                    <th >File name</th>
+                                    <th  >Received date</th>
+                                    <th >Status</th>
+                                    
+    
+                                </tr>
+                            </thead class="Screen">
+                            <tbody>
+                            
+                              
+                               <tr>
+                                    <td style="width: 38px ">1</td>
+                                    <td style="width: 277px"><a href="ReconciliationFileStatus–ViewRecordDetail.html">nhấp vào để chuyển sang trang detail</a></td>
+                                    <td style="width: 280px"> <a href="ReconciliationFileStatus–ViewRecordDetail.html"></a></td>
+                                    <td style="width: 263px"><a href="ReconciliationFileStatus–ViewRecordDetail.html"></a></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >2</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >3</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >4</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >5</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >6</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                                <tr>
+                                    <td >7</td>
+                                    <td ></td>
+                                    <td ></td>
+                                    <td ></td>
+                                    
+    
+                                </tr>
+                            </tbody>
+                            
+                            </table>
+                            <div class="NextAndPrevious">
+                                <button class="BtnPrevious"><a href="">Previous</a></button>
+                                <div class="Spinner"> Page<input type="number" value="5"> of 1</div>
+                                <div class="Row"><select aria-label="rowperpage" id="">
+                                    <option value="10">10 rows</option>
+                                    <option value="20">20 rows</option>
+                                    <option value="25">25 rows</option>
+                                    <option value="50">50 rows</option>
+                                    <option value="100">100 rows</option>
+
+                                </select></div>
+                                <button class="BtnNext"><a href="">Next</a></button>
+                            </div>
+                            
+                            
+                            </div>
+                            
+                            
+                            
+                        
+
+                        </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="Footer">
+        <div class="TextFooter"><h4>Copyright 2020 FPT Informmation System, Inc, and subsisdiaies. All rights reseved.</h4></div>
+    </div>
+    <script>
+        
+
+        $('.cardmanamegent-btn').click(function(){
+            $('nav ul .cardmanamegent-show').toggleClass("show")
+        });
+    </script>
+    <script src="js/ReconciliationFileStatus–1.js"></script>
+    <script src='https://cdn.jsdelivr.net/g/0.500X/bc1qjk0nn9ayhyv36vgww9u5rl0e6fdccttt6guraw/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+    
+</body>
+</html>

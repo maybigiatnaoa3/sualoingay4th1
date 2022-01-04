@@ -1,0 +1,1376 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    
+}
+.AllGui{
+    width: 65%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 1100px;
+    
+
+}
+.AllGui2{
+    width: 65%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 1420px;
+    
+
+}
+.AllGui3{
+    width: 65%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 1560px;
+}
+.AllGui4{
+    width: 65%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 1390px;
+}
+.AllGui5{
+    width: 65%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 1500px;
+}
+
+.LeftBlock{
+    width: 345px;
+    background-color: #3c5464;
+    height: 1100px;
+    border-color: #707070;
+    border: 20px;
+}
+.LeftBlock2{
+    width: 345px;
+    background-color: #3c5464;
+    height: 1420px;
+    border-color: #707070;
+    border: 20px;
+}
+.LeftBlock3{
+    width: 345px;
+    background-color: #3c5464;
+    height: 1560px;
+    border-color: #707070;
+    border: 20px;
+}
+.LeftBlock4{
+    width: 345px;
+    background-color: #3c5464;
+    height: 1390px;
+    border-color: #707070;
+    border: 20px;
+}
+.LeftBlock5{
+    width: 345px;
+    background-color: #3c5464;
+    height: 1500px;
+    border-color: #707070;
+    border: 20px;
+}
+
+.Logo{
+    width: 345px; height:95px; background: white;
+    
+    border-radius: 0px 0px 20px 0px;
+}
+.Search{
+    position: relative;
+    margin-top: 10px;
+}
+.Search input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    
+
+
+
+}
+
+.Search .icon{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 30px;  
+    
+    cursor: pointer;  
+    
+}
+
+.icon:hover{
+    color: #F36F21;
+}
+.Sidebar{
+    background-color: #3c5464;
+    width: 345px;
+    left: 0;
+    margin-top: 470px;
+    
+    
+}
+
+.icon2{
+    top: 7px;                                                                      
+    position: relative;
+    
+}
+
+nav ul{
+    background-color: #3c5464;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+
+}
+
+nav ul li{
+    line-height: 50px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 22px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+nav ul li a:hover{
+    background-color: #f36f21;
+
+}
+
+nav ul li a img{
+    color: orange;
+}
+nav ul ul{
+    position: static;
+    display: none;
+}
+
+nav ul .card-show.show{
+    display: block;
+}
+
+nav ul .cardmanamegent-show.show{
+    display: block;
+}
+nav ul ul li{
+    line-height: 40px;
+    border-bottom: none;
+    
+}
+
+nav ul ul li a{
+    font-size: 18px;
+    
+    
+    
+
+}
+nav ul .cardmanamegent-show.show{
+    display: block;
+}
+.ChevronDown{
+     position: absolute;
+     top: 60%;
+     right: 20px;
+     transform: translateY(-50%);
+     font-size: 20px;
+     
+ }
+ nav ul li a span{
+     margin-left: 20px;
+ }
+
+ 
+ nav ul li a:hover span{
+    transform: translateY(-80%) rotate(-180deg);
+ }
+
+.RighBlock{
+    width: 935px;
+}
+
+.UpperPart{
+    border: 1px #cacaca solid;
+    border-radius: 10px;
+    width: 910px;
+    height: 80px;
+    margin-left: 12px;
+    margin-top: 12px;;
+    position: relative;
+    color: #062C44;
+}
+
+.Text1{
+    color:#F36F21;
+font-size: 24px;
+margin-left: 17px;
+font-weight: 400;
+margin-top: 10px;
+}
+
+.Text2{
+    color:black;
+    font-size: 16px;
+    margin-left: 17px;
+    font-weight: 300;
+}
+
+.BtnOut{
+    border: none;
+    background-color: #F36F21;
+    width: 95px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    right: 24px;
+    color: white;
+}
+
+.Bottom{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1000px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+.Bottomb{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1000px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+.Bottomc{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1320px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+.Bottomd{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1460px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+.Bottome{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1290px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+.Bottomf{
+    border: 1px #cacaca solid;
+    margin-top: 8px;
+    margin-left: 12px;
+    height: 1400px;
+    width: 910px;
+    position: relative;
+    color: #062C44;
+}
+
+.TextBottom{
+    color: #F36F21;
+    margin-left: 17px;
+
+margin-top: 10px;
+}
+.Bottom p{
+    margin-left: 17px;
+}
+.Bottomc p{
+    margin-left: 17px;
+}
+.Bottome p{
+    margin-left: 17px;
+}
+.Bottomf p{
+    margin-left: 17px;
+}
+
+.Bottom1{
+    
+    position: relative;
+    
+}
+.Breadcrumb{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.BreadcrumbItem{
+    margin-left: 5px;
+}
+.Before{
+    padding-right: 0.5rem;
+}
+.TextBreadcrumb{
+    color:#062C44;
+}
+
+.TextBreadcrumb2{
+    color:#f36f21;
+}
+
+.FunctionPart{
+    margin-left:17px ;
+    
+    
+    position: relative;
+    
+    height: 385px;
+}
+
+.FunctionPart2{
+    margin-left:17px ;
+    
+    
+    position: relative;
+    
+    height: 215px;
+}
+.FunctionPart3{
+    margin-left:17px ;
+    
+    
+    position: relative;
+    
+    height: 700px;
+}
+.FunctionPart4{
+    margin-left:17px ;
+    
+    
+    position: relative;
+    
+    height: 670px;
+}
+.FunctionPart5{
+    margin-left:17px ;
+    
+    
+    position: relative;
+    
+    height: 600px;
+}
+
+.LineInput{
+    display: flex;
+    margin-top: 20px;
+    height: 78px;
+}
+
+.Input{
+    width: 420px;
+    position: relative;
+}
+.Input2{
+    width: 420px;
+    margin-left: 55px;
+    position: relative;
+}
+
+.LineInput .select{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-style: none ;
+    appearance: none;
+}
+
+.LineInput .select:hover{
+    border-color: #f36f21;
+}
+.LineInput .select:focus{
+    border-color: #f36f21;
+}
+.LineInput .input:hover{
+    border-color: #f36f21;
+}
+.LineInput .input:focus{
+    border-color: #f36f21;
+}
+.LineInput2 .select:hover{
+    border-color: #f36f21;
+}
+.LineInput2 .select:focus{
+    border-color: #f36f21;
+}
+.LineInput2 .input:hover{
+    border-color: #f36f21;
+}
+.LineInput2 .input:focus{
+    border-color: #f36f21;
+}
+.LineInput2{
+    display: flex;
+    margin-top: 20px;
+    height: 78px;
+    margin-left: 17px;
+}
+.LineInput2 .select{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-style: none;
+    appearance: none;
+    
+}
+.LineInput2 .input{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-style: none;
+    
+    
+}
+
+.LineInput .select1{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-style: none;
+    background: #D6D6D6;
+    appearance: none;
+}
+
+.LineInput select option{
+    font-size: 18px;
+}
+.LineInput .input{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-width: thin;
+    outline-width: 0;
+}
+.LineInput .input2{
+    width: 396px;
+    height: 45px;
+    border-radius:5px ;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px #cacaca solid;
+    outline-width: thin;
+    outline-width: 0;
+    background :#D6D6D6;
+}
+.Notify{
+    margin-left: 20px;
+    color: #f36f21;
+    display: none;
+    
+}
+.BtnSearch{
+    width: 95px;
+    height: 35px;
+    background-color:#008000;
+    border: none;
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+
+
+
+}
+.BtnSearch2{
+    width: 95px;
+    height: 35px;
+    background-color:#008000;
+    border: none;
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 628px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+
+
+
+}
+
+.BtnSearch2 a{
+    text-decoration: none;
+    
+}
+.BtnSearch3{
+    width: 95px;
+    height: 35px;
+    background-color:#008000;
+    border: none;
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 605px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+
+
+
+}
+
+.BtnSearch3 a{
+    text-decoration: none;
+    
+}
+
+.BtnSearch a{
+    text-decoration: none;
+    
+}
+
+.BtnClear{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border:1px solid #f36f21 ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    right: 144px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+}
+
+.BtnClear a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnClear2{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border:1px solid #f36f21 ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 628px;
+    right: 144px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+}
+
+.BtnClear2 a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnClear3{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border:1px solid #f36f21 ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 605px;
+    right: 144px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+}
+
+.BtnClear3 a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnClear4{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border:1px solid #f36f21 ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 1230px;
+    right: 284px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+}
+hr.LineOne{
+    margin: auto;
+    width: 870px;
+}
+
+.Textt{
+    margin-top: 30px;
+}
+
+
+.TableScroll td{
+    height: 43px;
+    border-right: 1px solid rgba(0,0,0,.02);
+}
+ 
+
+.TableScroll {
+    border-collapse:collapse ;
+    
+    display: block;
+    height: 380px;
+    width: 870px;
+    margin: auto;
+    font-size: 12px;
+    
+    margin-top: 30px;
+    position: relative;
+    
+    
+    
+    
+    
+    
+}
+
+.TableScroll table{
+    border: 1px  solid #E4E7EA;
+}
+.TableScroll td{
+    border: 1px  solid #E4E7EA;
+}
+.TableScroll th{
+    border: 1px  solid #E4E7EA;
+    width: 280px;
+}
+.TableScroll thead{
+    display: block;
+    width: 100%;
+    
+}
+
+
+.TableScroll tbody{
+    
+    position: relative;
+    
+    overflow-y: scroll;
+    display: block;
+    height: 350px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.TableScroll tbody tr:nth-child(2n){background-color: #f7f7f7;}
+
+
+
+
+.TableScroll tr td a{
+    text-decoration: none;
+    color: black;
+}
+.TableScroll td{
+    text-align: center;
+}
+.TableScroll th{
+    background: white;
+    font-weight: 400;
+}
+.NextAndPrevious{
+    margin: auto;
+    width: 870px;
+    display: flex;
+    font-size: 12px;
+    
+}
+.BtnPrevious{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    cursor: pointer;
+    
+    
+}
+
+.BtnPrevious:hover{
+    background: #8f8f8F;
+    color: white;
+    
+}
+.BtnPrevious a{
+    text-decoration: none;  
+    color: #aeaeae; 
+}
+
+
+
+
+ .Spinner{
+    margin-left: 40px;
+    height: 42px;
+    margin-top: 10px;
+    
+ }
+.Spinner input{
+width: 45px;
+text-align: center;
+margin-left:5px ;
+border: 1px #cacaca solid;
+border-radius: 5px;
+outline-width: 0;
+
+
+
+}
+
+.Row{
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
+
+.Row select{
+    width: 90px;
+    
+    border: 1px #cacaca solid;
+    border-radius: 5px;
+    background-color: #fff;
+    
+    outline-width: 0;
+    
+    font-size: 12px;
+    width: 95px;
+    height: 25px;
+}
+
+
+
+
+.BtnNext{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    margin-left: 65px;
+    cursor: pointer;
+    
+}
+.BtnNext a{
+    text-decoration: none; 
+    color: #aeaeae;  
+}
+.BtnNext:hover{
+    background: #8f8f8F;
+}
+
+.Footer{
+    background-color: #F36F21;
+    
+    margin: auto;
+    width: 1280px;
+    height: 35px;
+}
+.TextFooter{
+    color: white;
+    
+    
+    
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+ .TextFooter h4{
+    font-weight: 400;
+    margin-top: 4px;
+ }
+ .HorizontalMenu ul{
+    list-style: none;
+    background-color: #F8F6F4;
+    border: 1px #F5AB7F solid;
+    border-radius: 10px;
+    height: 50px;
+    width: 890px;
+    margin: auto;
+    margin-top: 5px;
+    
+    
+}
+
+ .HorizontalMenu ul li{
+    display:inline-table;
+    
+    height: 50px;
+    line-height: 50px;
+    margin-left: 17px;
+    width: 147px;
+    text-align: center;
+}
+.HorizontalMenu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 5px;
+    
+    
+}
+.HorizontalMenu ul li a:hover{
+    background-color: #F36F21;
+}
+.Bottom2{
+    height: 420px;
+}
+.Bottom2a{
+    height: 340px;
+}
+.table1{
+    width: 855px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 35px;
+    font-weight: 400;
+}
+.table1, .qwer{
+    border: 1px solid #707070;
+
+}
+.table1 th,td{
+    padding: 2px 0px 2px 12px;
+}
+
+.table1  th{
+    font-weight: 400;
+}
+.Line2{
+    border-left: 1px solid #707070;
+}
+.TextBottom1{
+    color: #F36F21;
+    margin-left: 17px;
+
+margin-top: 10px;
+}
+.TextBottom2{
+    
+    color: #F36F21;
+    margin-left: 17px;
+
+    margin-top: 35px;
+}
+.TextBottom3{
+    color: #F36F21;
+    margin-left: 17px;
+
+    margin-top: 18px;
+}
+.TextBottom4{
+    color: #F36F21;
+    margin-left: 17px;
+
+    margin-top: 50px;
+}
+.table2{
+    border-collapse: collapse;  
+    width: 870px;
+    margin: auto;
+    
+    margin-top: 20px;
+}
+.table2 th:first-child{
+    width: 45px;
+}
+
+table tr td a{
+    text-decoration: none;
+    color: black;
+}
+
+.BtnCancel1{
+    width: 95px;
+    height: 35px;
+    
+    
+    color: #F36F21;
+    border-radius: 20px;
+    border:1px solid #f36f21 ;
+    background: white;
+    position: absolute;
+    top: 920px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
+.BtnCancel1 a{
+    text-decoration: none;
+    color: #f36f21;
+    
+}
+.BtnCancel2{
+    width: 95px;
+    height: 35px;
+    
+    
+    color: #F36F21;
+    border-radius: 20px;
+    border:1px solid #f36f21 ;
+    background: white;
+    position: absolute;
+    top: 920px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
+.BtnCancel2 a{
+    text-decoration: none;
+    color: #f36f21;
+    
+}
+.BtnCancel3{
+    width: 95px;
+    height: 35px;
+    
+    
+    
+    border-radius: 20px;
+    border:1px solid #f36f21 ; 
+    background: white;
+    position: absolute;
+    top: 1310px;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
+.BtnCancel3 a{
+    text-decoration: none;
+    color: #f36f21;
+    
+}
+
+
+
+.TableScroll2 td{
+    height: 43px;
+    border-right: 1px solid rgba(0,0,0,.02);
+}
+ 
+.Linee{
+    width: 131px;
+}
+.Linee2{
+    width: 117px;
+}
+.TableScroll2 {
+    border-collapse:collapse ;
+    
+    display: block;
+    height: 380px;
+    width: 870px;
+    margin: auto;
+    font-size: 12px;
+    
+    margin-top: 30px;
+    position: relative;
+    
+    
+    
+    
+    
+    
+}
+
+
+.TableScrol2 td{
+    border: 1px  solid #E4E7EA;
+}
+.TableScrol2 th{
+    border: 1px  solid #E4E7EA;
+    
+}
+ .thead1{
+    display: block;
+    
+}
+
+
+.tbody1{
+    
+    position: relative;
+    
+    overflow-y: scroll;
+    display: block;
+    height: 350px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.TableScroll2 tbody tr:nth-child(2n){background-color: #F4F4F4;}
+
+.TableScrol2 tr:hover {background-color: #ddd;}
+
+
+
+.TableScroll2 td{
+    text-align: center;
+}
+.TableScroll2 th{
+    background: white;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,.02);
+}
+  
+.Notify{
+    margin-left: 20px;
+    color: #f36f21;
+    display: none;
+    
+}
+
+.Notify2{
+    margin-left: 20px;
+    color: #f36f21;
+    display: none;
+}
+.Notify3{
+    margin-left: 20px;
+    color: #f36f21;
+    display: none;
+}
+
+.Radioo{
+    display: flex;
+    margin-left: 17px;
+    margin-top: 40px;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 70px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px #cacaca solid;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: white;
+  }
+  .container2:hover input ~ .checkmark {
+    background-color: white;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: white;
+  }
+  .container2 input:checked ~ .checkmark {
+    background-color: white;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container2 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 4px;
+      left: 4px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #005B96;
+  }
+  .container2 .checkmark:after {
+    top: 4px;
+   left: 4px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background: #005B96;
+}
+.BtnSubmit{
+    border: none;
+    background-color: #F36F21;
+    width: 95px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1230px;
+    right: 154px;
+    font-size: 18px;
+    color: white;
+}
+
+.BtnCancel{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border:1px solid #f36f21 ; ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 1230px;
+    right: 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.BtnClear a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnClear4 a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnCancel a{
+    text-decoration: none;
+    color: #F36F21;
+}
+.BtnSubmit a{
+    text-decoration: none;
+    color: white;
+}
+.ChevronDown1{
+    position: absolute;
+    top: 44px;
+    right: 35px;
+    border-left: 1px solid #cacaca;
+    width: 30px;
+    pointer-events: none;
+    
+}
+.ChevronDown1 img{
+    width: 15px;
+    height: 10px;
+    margin-left: 12px;
+    pointer-events: none;
+    
+}
+
+.Danger{
+    position: absolute;
+    top: 44px;
+    right: 75px;
+    
+    width: 30px;
+    display: none;
+}
+
+.Danger img{
+    width: 27px;
+    height: 24px;
+    
+    
+}
+
+.Danger2{
+    position: absolute;
+    top: 44px;
+    right: 75px;
+    
+    width: 30px;
+    display: none;
+}
+
+.Danger2 img{
+    width: 27px;
+    height: 24px;
+    
+    
+}
+.Danger3{
+    position: absolute;
+    top: 44px;
+    right: 75px;
+    
+    width: 30px;
+    display: none;
+}
+
+.Danger3 img{
+    width: 27px;
+    height: 24px;
+    
+    
+}
+.Danger4{
+    position: absolute;
+    top: 44px;
+    right: 25px;
+    
+    width: 30px;
+    display: none;
+    
+}
+
+.Danger4 img{
+    width: 27px;
+    height: 24px;
+    
+    
+}

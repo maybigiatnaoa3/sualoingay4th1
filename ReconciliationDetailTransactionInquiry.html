@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Transaction</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="AllGui3">
+        <div class="LeftBlock3">
+            <div class="Logo">
+                <img src="image/Logo_Home.png" alt="" >
+                
+            </div>
+            <div class="TollsPart">
+                <div class="Search">
+                    <input type="text" placeholder="Enter screencode" >
+                        <div class="icon"><img src="image/surface1.png" alt=""></div>
+                        <!-- <div class="icon"><i class="fas fa-search"></i></div> -->
+                </div>
+                <nav class="Sidebar">
+                    <ul>
+                        
+                        <li>
+                            <a href="#" class="cardmanamegent-btn"><span  class="icon2"><img src="image/ic_library_books_24px.png" alt=""></span><span>Reconciliation</span> <span class="ChevronDown"><img src="image/icons8_angle_down_64px.png" alt=""></span></a>
+                            <ul class="cardmanamegent-show">
+                                <li><a href=""><span>Reconciliation File Status</span></a></li>
+                                <li><a href=""><Span>Transaction Inquiry</Span></a></li>
+                                <li><a href=""><span>Adjustment</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="RightBlock">
+            <div class="UpperPart">
+                <h3 class="Text1">Welcome, Vũ Thị Hà Phương</h3>
+                <h4 class="Text2">To day is Friday, November 13th 2020. Hopyouhave a nice day !</h4>
+                <button class="BtnOut">Log out</button>
+            </div>
+            <div class="Bottomd">
+                <h3 class="TextBottom1">Transaction Inquiry</h3>
+                <div class="BreadcrumbContainer">
+                    <ol class="Breadcrumb">
+                        <div class="BImage"><img src="image/Home.png" alt=""></div>
+                        <li class="BreadcrumbItem">
+                            <span class="Before">/</span>
+                            <span class="TextBreadcrumb">Transaction Inquiry</span>
+                        </li>
+                        <li class="BreadcrumbItem">
+                            <span class="Before">/</span>
+                            <span class="TextBreadcrumb">Detail Transaction Inquiry</span>
+                        </li>
+                        <li class="BreadcrumbItem">
+                            <span class="Before">/</span>
+                            <span class="TextBreadcrumb2">You are here</span>
+                        </li>
+                    </ol>
+                </div>
+                        <div class="Bottom1">
+                            <div class="FunctionPart">
+                                <form action="SearchCard">
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Data Collection</label></div>
+                                            <input class="input2" type="text" id="Datacollection" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Card number</label></div>
+                                                <input class="input2" type="text" id="Cardnumber" readonly>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">File Reconciliation</label></div>
+                                            <input class="input2" type="text" id="FileReconciliation" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                
+                                                <div><label for="format">Acquirer</label></div>
+                                                <input class="input2" type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Local Date</label></div>
+                                            <input class="input2"type="date"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Terminal ID</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Local Time</label></div>
+                                            <input class="input2"type="time"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Currency Code</label></div>
+                                                <input class="input2" type="text" id="CurrencyCode" readonly>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">FPT Round 1 Checking Status</label></div>
+                                            <input class="input2" type="text" id="FPTR1" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Transaction Amount</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">BSP Round 2 Checking Status</label></div>
+                                            <input class="input2" type="text" id="FPTR2" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Transaction Date</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Reconciliation Response Code to NAPAS</label></div>
+                                            <input class="input2" type="text" id="RRCode" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Transaction Time</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">BSP Additional Data</label></div>
+                                            
+                                                <input class="input2"type="text"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                
+                                                <div><label for="format">Trace Number</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Processing Code</label></div>
+                                            <input class="input2"type="text"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Reference Number</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Message Type</label></div>
+                                            <input class="input2" type="text" id="MessageType" readonly>
+                                            <span class="ChevronDown1"><img src="image/Path 82.png" alt=""></span>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Authorization Code</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Issuer Service Fee </label></div>
+                                            <input class="input2"type="text"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Settlement Amount</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Issuer Interchange Fee</label></div>
+                                            <input class="input2"type="text"readonly>
+                                            </div>
+                                        
+                                        
+                                            <div class="Input2">
+                                                <div><label for="format">Settlement Date</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Acquirer Service Fee</label></div>
+                                            <input class="input2"type="text"readonly>
+                                            </div>
+                                            <div class="Input2">
+                                                <div><label for="format">Settlement Time</label></div>
+                                                <input class="input2"type="text"readonly>
+                                        </div>
+                                        
+                                        
+                                            
+                                    </div>
+                                    <div class="LineInput">
+                                        <div class="Input">
+                                            <div><label for="format">Acquirer Interchange Fee</label></div>
+                                            <input class="input2"type="text"readonly>
+                                            </div>
+                                            
+                                        
+                                        
+                                            
+                                    </div>
+                                    
+                                    
+                                </form>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        <button class="BtnCancel3"><a href="">Cancel</a></button>
+
+                    
+                        </div>
+        </div>
+        
+    </div>
+    </div>
+    <div class="Footer">
+        <div class="TextFooter"><h4>Copyright 2020 FPT Informmation System, Inc, and subsisdiaies. All rights reseved.</h4></div>
+    </div>
+    <script>
+        
+
+        $('.cardmanamegent-btn').click(function(){
+            $('nav ul .cardmanamegent-show').toggleClass("show")
+        });
+    </script>
+    
+</body>
+</html>
